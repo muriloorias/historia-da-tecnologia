@@ -1,3 +1,6 @@
-function testNave(){
-      window.location.href = 'test.html';
+function paleolitico(){
+      window.location.href = 'pagina1.html';
+}
+function returnToHome(){
+      window.location.href = 'home.html'
 }
