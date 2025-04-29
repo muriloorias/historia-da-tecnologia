@@ -1,0 +1,10 @@
+{
+      "todohighlight.keywords": [
+            {
+                  "text": "WARNING:",
+                  "color": "#ffff00",
+                  "backgroundColor": "#000000",
+                  "border": "1px solid #ffff00"
+            }
+      ]
+}

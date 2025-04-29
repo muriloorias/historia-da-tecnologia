@@ -1,4 +1,7 @@
+//funções para navegação funcionaram iguais e devem manter o mesmo padrão
+//nome da função
 function paleolitico(){
+      //parte principal que faz a movimentação das paginas
       window.location.href = 'pagina1.html';
 }
 function returnToHome(){
