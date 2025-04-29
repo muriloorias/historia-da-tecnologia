@@ -1,24 +1,30 @@
-main{
+/* Esse arquivo contem o estilo das paginas do site */
+
+/* Configuracoes para o elemento <main>, que contem o conteudo principal */
+main {
+    background-color: whitesmoke; 
+    color: black; 
+    padding: 0; /* Remove o espaco interno */
+    margin: 0; /* Remove as margens externas */
+}
+
+/* Estilo para o <header>, que e o cabecalho da pagina */
+header {
+    background-color: #9ACBD0; 
+    color: black; 
+    padding: 10px; 
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Classe .right para alinhar elementos a direita */
+.right {
+    float: right; /* Faz o elemento ir para a direita */
+    text-align: right; /* Alinha o texto a direita */
+}
+
+/* Classe .text para centralizar textos */
+.text {
     background-color: whitesmoke;
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-
-header{
-    background-color: #9ACBD0;
-    color: black;
-    padding: 10px;
-    text-align: center;
-}
-
-.right{
-    float: right;
-    text-align: right;
-}
-
-.text{
-    background-color: whitesmoke;
-    align-items: center;
-    text-align: center;
+    align-items: center; /* Sem efeito aqui, pois nao e flexbox ou grid */
+    text-align: center; /* Centraliza o texto horizontalmente */
 }

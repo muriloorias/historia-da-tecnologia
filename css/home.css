@@ -1,83 +1,90 @@
-.topleft{
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin: 5px;
+/* Esse arquivo tem os estilos da pagina inicial */
+
+/* Classe .topleft para posicionar elementos no canto superior esquerdo */
+.topleft {
+      position: absolute; /* Posiciona o elemento de forma absoluta */
+      top: 0; /* Alinha ao topo */
+      left: 0; /* Alinha a esquerda */
+      margin: 5px; /* Define uma margem de 5px */
 }
 
-.toprigth{
-      position: absolute;
-      top: 0;
-      right: 0;
-      margin: 10px;
+/* Classe .toprigth para posicionar elementos no canto superior direito */
+.toprigth {
+      position: absolute; /* Posiciona o elemento de forma absoluta */
+      top: 0; 
+      right: 0; /* Alinha a direita */
+      margin: 10px; /* Define uma margem de 10px */
 }
 
+/* Estilo para o body, que e o corpo da pagina */
 body {
-      background-color: whitesmoke;
-      color: black;
-      padding: 0;
-      margin: 0;
+      background-color: whitesmoke; 
+      color: black; 
+      padding: 0; /* Remove o espaco interno */
+      margin: 0; /* Remove as margens externas */
 }
 
-
+/* Estilo para o header, que e o cabecalho da pagina */
 header {
-      background-color: #9ACBD0;
-      color: black;
-      padding: 10px;
-      text-align: center;
-      position: relative;
+      background-color: #9ACBD0; 
+      color: black; 
+      padding: 10px; 
+      text-align: center; 
+      position: relative; /* Posiciona o elemento de forma relativa */
 }
 
-/*barra de pesquisa*/
-.searchBar{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 20px;
+/* Classe .searchBar para estilizar a barra de pesquisa */
+.searchBar {
+      display: flex; /* Define um layout flexbox */
+      align-items: center; /* Alinha os itens verticalmente ao centro */
+      justify-content: center; /* Centraliza os itens horizontalmente */
+      margin: 20px; /* Define uma margem de 20px */
 }
 
-.searchInput{
-      
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 8px 0 0 8px;
-  outline: none;
-  width: 200px;
+/* Classe .searchInput para estilizar o campo de entrada da barra de pesquisa */
+.searchInput {
+      padding: 10px; /* Espacamento interno de 10px */
+      border: 2px solid #ccc; /* Borda cinza clara */
+      border-radius: 8px 0 0 8px; /* Bordas arredondadas no lado esquerdo */
+      outline: none; /* Remove o contorno ao focar */
+      width: 200px; /* Largura de 200px */
 }
 
-.searchBtn{
-  padding: 10px 15px;
-  border: 2px solid #ccc;
-  border-left: none;
-  background-color: #4a90e2;
-  color: white;
-  border-radius: 0 8px 8px 0;
-  cursor: pointer;
+/* Classe .searchBtn para estilizar o botao da barra de pesquisa */
+.searchBtn {
+      padding: 10px 15px; /* Espacamento interno */
+      border: 2px solid #ccc; 
+      border-left: none; /* Remove a borda esquerda */
+      background-color: #4a90e2;
+      color: white; 
+      border-radius: 0 8px 8px 0; /* Bordas arredondadas no lado direito */
+      cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
 }
 
+/* Estilo para listas nao ordenadas */
 ul {
-
-      display: flex;
-      justify-content: space-around;
-      list-style-type: none;
+      display: flex; /* Define um layout flexbox */
+      justify-content: space-around; /* Espacamento uniforme entre os itens */
+      list-style-type: none; /* Remove os marcadores da lista */
 }
 
-
+/* Estilo para itens de lista */
 li {
-      padding: 20px;
+      padding: 20px; /* Espacamento interno de 20px */
 }
 
-
+/* Classe .item para estilizar itens individuais */
 .item {
-      background-color: white;
-      width: 280px;
-      height: 280px;
-      border-radius: 10px;
-      align-items: center;
-      text-align: center;
-      cursor: pointer;
+      background-color: white; 
+      width: 280px; /* Largura de 280px */
+      height: 280px; /* Altura de 280px */
+      border-radius: 10px; /* Bordas arredondadas */
+      align-items: center; /* Alinha os itens verticalmente ao centro */
+      text-align: center; /* Centraliza o texto */
+      cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
 }
 
-.hidden{
-      display: none;
+/* Classe .hidden para esconder elementos */
+.hidden {
+      display: none; /* Oculta o elemento */
 }
