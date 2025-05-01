@@ -1,25 +1,42 @@
-const button = document.getElementById('searchButton');
-const input = document.getElementById('searchInput');
-const listItems = document.querySelectorAll('#itemList li');
-const resultado = document.getElementById('resultado');
+function search() {
+  const input = document.querySelector('.searchInput');
+  const searchBtn = document.querySelector('.searchBtn');
+  const items = document.querySelectorAll('.item');
 
-button.addEventListener('click', () => {
-  const termo = input.value.toLowerCase();
-  let encontrou = false;
+  function filterItens() {
+    if (!input || !(input instanceof HTMLInputElement)) return;
 
-  listItems.forEach(item => {
-    const textoItem = item.textContent.toLowerCase();
-    if (textoItem.includes(termo)) {
-      item.classList.remove('hidden');
-      encontrou = true;
-    } else {
-      item.classList.add('hidden');
-    }
-  });
+    const term = input.value.toLowerCase();
 
-  if (encontrou) {
-    resultado.textContent = '';
-  } else {
-    resultado.textContent = 'Item não encontrado.';
+    items.forEach(item => {
+      const titleEl = item.querySelector('h2');
+      const title = titleEl ? titleEl.innerText.toLowerCase() : '';
+      
+      if (item instanceof HTMLElement) {
+        item.style.display = title.includes(term) ? 'block' : 'none';
+      }
+    });
   }
+
+  // Agora adiciona os eventos corretamente
+  if (searchBtn) {
+    searchBtn.addEventListener('click', filterItens);
+  }
+
+  if (input) {
+    input.addEventListener('keyup', (event) => {
+      /*
+      * HACK: se esta dando erro aqui releva por que ta funcionando não sei se é
+      * alguma gambiarra do pessoal do stack overflow mas esta funcionando 
+      * to vendo alguma maneira de arrumar isto
+      */ 
+      if (event.key === 'Enter') {
+        filterItens();
+      }
+    });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  search();
 });
