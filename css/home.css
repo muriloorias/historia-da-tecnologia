@@ -88,3 +88,7 @@ li {
 .hidden {
       display: none; /* Oculta o elemento */
 }
+
+.clicable{
+      cursor: pointer;
+}

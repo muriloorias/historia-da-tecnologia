@@ -11,7 +11,7 @@ function search() {
     items.forEach(item => {
       const titleEl = item.querySelector('h2');
       const title = titleEl ? titleEl.innerText.toLowerCase() : '';
-      
+
       if (item instanceof HTMLElement) {
         item.style.display = title.includes(term) ? 'block' : 'none';
       }
@@ -26,10 +26,10 @@ function search() {
   if (input) {
     input.addEventListener('keyup', (event) => {
       /*
-      * HACK: se esta dando erro aqui releva por que ta funcionando não sei se é
-      * alguma gambiarra do pessoal do stack overflow mas esta funcionando 
-      * to vendo alguma maneira de arrumar isto
-      */ 
+      * HACK: se esta dando erro aqui releva por que ta funcionando
+      * não sei se é alguma gambiarra do pessoal do stack overflow
+      * mas esta funcionando to vendo alguma maneira de arrumar isto
+      */
       if (event.key === 'Enter') {
         filterItens();
       }
