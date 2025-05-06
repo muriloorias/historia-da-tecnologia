@@ -1,28 +1,47 @@
+<!--marca o ducumento como html-->
+<!--coisas basicas não expliquei ok-->
 <!DOCTYPE html>
-<html lang="en">
-
+<!--estrutura inicial do codigo com a lingua em ingles pode ser alterada depois-->
+<html lang="pt-BR">
+<!--define toda a estrutura-->
 
 <head>
+    <!--usa o codificação utf8 não muda mas é necessario-->
     <meta charset="UTF-8">
+    <!--meta para fazer com que a pagina se adeque a qualquer tipo de tela-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>historia da tec</title>
+    <!--define o titulo da pagina-->
+    <title>História da Tecnologia</title>
+    <!--define o estilo da pagina ou linka o css como preferir-->
     <link rel="stylesheet" href="css/home.css">
 </head>
 
+<!--define o corpo da pagina-->
 
 <body>
+    <!--define o cabeçalho da pagina-->
     <header>
         <h1>A História da Tecnologia</h1>
-        <img src="img/logo.png" class="topleft" height="100" width="100">
-        <div class="searchBar toprigth" >
+        <!--define a imagem do logo da pagina-->
+        <img src="img/logo.png" class="topleft clicable"
+         onclick="returnToHome()" height="100" width="100">
+        <!--div do campo de pesquisa-->
+        <div class="searchBar toprigth">
+            <!-- Campo de entrada de texto para o usuário digitar o termo de busca -->
             <input type="text" placeholder="buscar..." class="searchInput">
-            <img src="img/search.png" class="searchBtn"  height="15" width="15">
+            <!-- Ícone de lupa que pode ser usado como botão para acionar a busca -->
+            <img src="img/search.png" class="searchBtn" height="15" width="15">
         </div>
     </header>
     <main>
+        <!--div com os itens-->
         <div class="timeline">
+            <!--WARNING: a cada ul deve haver apenas 4 itens-->
+            <!--lista desordenada com os itens-->
             <ul>
+                <!--item da lista a estrutura deve se repetir em todos os items da lista-->
                 <li>
+                    <!--onclick chama função javascript paara mudar de tela-->
                     <div class="item" onclick="paleolitico()">
                         <img src="https://i.ibb.co/0jQkn6cC/download.jpg" height="120" width="120">
                         <h2>Paleolítico</h2>
@@ -53,16 +72,18 @@
                         <h2>Revolução Industrial</h2>
                     </div>
                 </li>
-                
+
                 <li>
                     <div class="item" onclick="seculoxx()">
-                        <img src="https://i.ibb.co/XrLLQsxJ/16688001046377de68674e6-1668800104-3x2-rt.jpg" height="120" width="120">
+                        <img src="https://i.ibb.co/XrLLQsxJ/16688001046377de68674e6-1668800104-3x2-rt.jpg" height="120"
+                            width="120">
                         <h2>Século XX</h2>
                     </div>
                 </li>
                 <li>
                     <div class="item" onclick="seculoxxi()">
-                        <img src="https://i.ibb.co/XrLLQsxJ/16688001046377de68674e6-1668800104-3x2-rt.jpg" height="120" width="120">
+                        <img src="https://i.ibb.co/XrLLQsxJ/16688001046377de68674e6-1668800104-3x2-rt.jpg" height="120"
+                            width="120">
                         <h2>Século XXI</h2>
                     </div>
                 </li>
@@ -70,8 +91,9 @@
         </div>
 
     </main>
+    <!--importa os scripts javascript-->
     <script src="js/navigarion.js"></script>
-    <script src="js/search.js"></script>
+    <script type="module" src="js/search.js"></script>
 </body>
 
 
