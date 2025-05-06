@@ -33,13 +33,10 @@ function seculoxx() {
 
 function seculoxxi() {
       window.location.href = 'pagina7.html'
-<<<<<<< HEAD
 
 }
 
 function curiopag1(){
       window.location.href = 'curiosidadepag1.html'
-=======
->>>>>>> 6929495bb944070c0d86f344961dab8f782027f7
 
 }
