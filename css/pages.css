@@ -13,15 +13,16 @@ main {
     margin: 0; /* Remove as margens externas */
 }
 
-/* Estilo para o <header>, que e o cabecalho da pagina */
-header {
-    
+/* Estilo para o, que e o cabecalho da pagina */
+header { 
     background-color: #9ACBD0; 
     color: black; 
     padding: 10px; 
     text-align: center; 
     position: relative; /* Posiciona o elemento de forma relativa */
 }
+
+
 
 /* Classe .right para alinhar elementos a direita */
 .right {
@@ -45,4 +46,24 @@ header {
     top: 0; /* Alinha ao topo */
     left: 0; /* Alinha a esquerda */
     margin: 5px; /* Define uma margem de 5px */
+}
+
+.left{
+    float: left;
+    text-align: left;
+}
+
+.text p{
+    max-width: 1300px; /* Ajuste o valor conforme desejar */
+    width: 100%;
+    display: block;
+    word-break: break-word; /* Garante quebra de palavra se necessário */
+}
+
+.text img{
+    margin-right: 10px;
+}
+
+.buttons{
+    margin-top: 50px;
 }
