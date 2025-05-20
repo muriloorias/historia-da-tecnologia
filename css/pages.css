@@ -32,6 +32,7 @@ header {
 
 /* Classe .text para centralizar textos */
 .text {
+    font: normal 16px Arial, Verdana, serif;
     background-color: whitesmoke;
     align-items: center; /* Sem efeito aqui, pois nao e flexbox ou grid */
     text-align: center; /* Centraliza o texto horizontalmente */
@@ -54,14 +55,16 @@ header {
 }
 
 .text p{
-    max-width: 1300px; /* Ajuste o valor conforme desejar */
+    text-align: center;
+    align-items: center; 
     width: 100%;
     display: block;
     word-break: break-word; /* Garante quebra de palavra se necessário */
 }
 
+
 .text img{
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .buttons{

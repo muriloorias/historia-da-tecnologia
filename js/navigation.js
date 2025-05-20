@@ -40,3 +40,7 @@ function curiopag1(){
       window.location.href = 'curiosidadepag1.html'
 
 }
+
+function ferramentaprehistoria(){
+      window.location.href = 'pagina8.html'
+} 
