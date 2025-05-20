@@ -27,14 +27,14 @@ function search() {
     items.forEach(item => {
       //busca o titulo do item
       const titleEl = item.querySelector('h2');
-      //obtem o titulo e o define como string vazia se não houvefr titulo
+      //obtem o titulo e o define como string vazia se não houver titulo
       const title = titleEl ? titleEl.innerText : ''; 
 
       //verifica se o item não é um html vazio
       if (item instanceof HTMLElement) {
         //remove os ascentos e transforma em minusculo
         const normalizedTitle = removeAccentMark(title); 
-        //verifica se o titulo contem o termo
+        //verifica se o item corresponde com abusca se não ele oculta
         item.style.display = normalizedTitle.includes(term) ? 'block' : 'none';
       }
     });
