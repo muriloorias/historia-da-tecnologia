@@ -25,12 +25,21 @@ body {
 }
 
 /* Estilo para o header, que e o cabecalho da pagina */
-header {
+.header {
       background-color:#484d50; 
       color: white; 
       padding: 10px; 
       text-align: center; 
       position: relative; /* Posiciona o elemento de forma relativa */
+}
+
+.logo{    
+      margin-top: 10px;
+      margin-right: 10px;
+     border-radius: 10px;
+      background-color: white; 
+      width: 80px; /* Largura de 280px */
+      height: 80px; /* Altura de 280px */ 
 }
 
 /* Classe .searchBar para estilizar a barra de pesquisa */
