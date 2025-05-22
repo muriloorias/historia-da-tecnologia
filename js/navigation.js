@@ -44,3 +44,4 @@ function curiopag1(){
 function ferramentaprehistoria(){
       window.location.href = 'pagina8.html'
 } 
+
