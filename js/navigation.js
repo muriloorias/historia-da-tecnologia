@@ -44,3 +44,38 @@ function curiopag1(){
 function ferramentaprehistoria(){
       window.location.href = 'pagina8.html'
 } 
+
+function dominiodofogo(){
+      window.location.href = 'pagina9.html'
+
+}
+
+function invencaodaroda(){
+      window.location.href = 'pagina10.html'
+
+}
+
+function nauticaedescobrimento(){
+      window.location.href = 'pagina11.html'
+
+}
+
+function revolucaocientifica(){
+      window.location.href = 'pagina12.html'
+
+}
+
+function revolucaoindustrial(){
+      window.location.href = 'pagina13.html'
+
+}
+
+function locomotivaferroviaria(){
+      window.location.href = 'pagina14.html'
+
+}
+
+function maquinadecostura(){
+      window.location.href = 'pagina15.html'
+
+}
