@@ -26,11 +26,15 @@ body {
 
 /* Estilo para o header, que e o cabecalho da pagina */
 header {
-      background-color:#484d50; 
-      color: white; 
+      background-color: #9ACBD0; 
+      color: black; 
       padding: 10px; 
       text-align: center; 
       position: relative; /* Posiciona o elemento de forma relativa */
+}
+
+header h1{
+    color: white;
 }
 
 /* Classe .searchBar para estilizar a barra de pesquisa */
@@ -82,7 +86,6 @@ li {
       align-items: center; /* Alinha os itens verticalmente ao centro */
       text-align: center; /* Centraliza o texto */
       cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
-      
 }
 
 /* Classe .hidden para esconder elementos */
@@ -93,4 +96,3 @@ li {
 .clicable{
       cursor: pointer;
 }
-

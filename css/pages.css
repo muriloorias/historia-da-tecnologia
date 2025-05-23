@@ -13,6 +13,12 @@ main {
     margin: 0; /* Remove as margens externas */
 }
 
+/*remove s bolinha do lado da lista*/
+ul{
+  list-style: none;
+  margin: 10px;
+}
+
 /* Estilo para o, que e o cabecalho da pagina */
 header { 
     background-color: #9ACBD0; 
@@ -22,7 +28,16 @@ header {
     position: relative; /* Posiciona o elemento de forma relativa */
 }
 
-
+.item {
+      background-color: white; 
+      width: 280px; /* Largura de 280px */
+      height: 280px; /* Altura de 280px */
+      border-radius: 10px; /* Bordas arredondadas */
+      align-items: center; /* Alinha os itens verticalmente ao centro */
+      text-align: center; /* Centraliza o texto */
+      cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+      
+}
 
 /* Classe .right para alinhar elementos a direita */
 .right {

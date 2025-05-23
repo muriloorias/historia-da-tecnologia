@@ -36,46 +36,46 @@ function seculoxxi() {
 
 }
 
-function curiopag1(){
+function curiopag1() {
       window.location.href = 'curiosidadepag1.html'
 
 }
 
-function ferramentaprehistoria(){
+function ferramentaprehistoria() {
       window.location.href = 'pagina8.html'
-} 
+}
 
-function dominiodofogo(){
+function dominiodofogo() {
       window.location.href = 'pagina9.html'
 
 }
 
-function invencaodaroda(){
+function invencaodaroda() {
       window.location.href = 'pagina10.html'
 
 }
 
-function nauticaedescobrimento(){
+function nauticaedescobrimento() {
       window.location.href = 'pagina11.html'
 
 }
 
-function revolucaocientifica(){
+function revolucaocientifica() {
       window.location.href = 'pagina12.html'
 
 }
 
-function revolucaoindustrial(){
+function revolucaoindustrial() {
       window.location.href = 'pagina13.html'
 
 }
 
-function locomotivaferroviaria(){
+function locomotivaferroviaria() {
       window.location.href = 'pagina14.html'
 
 }
 
-function maquinadecostura(){
+function maquinadecostura() {
       window.location.href = 'pagina15.html'
 
 }
