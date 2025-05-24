@@ -85,3 +85,20 @@ header {
 .buttons{
     margin-top: 50px;
 }
+
+.resumo{
+    color: black;
+    background-color: floralwhite;
+}
+
+.moreInformations ul{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.moreInformations li {
+    flex: 0 0 auto;
+}

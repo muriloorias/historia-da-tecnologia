@@ -45,3 +45,22 @@ function ferramentaprehistoria(){
       window.location.href = 'pagina8.html'
 } 
 
+function maquinadecostura(){
+      window.location.href = 'pagina16.html'
+}
+
+function telegrafo(){
+      window.location.href = 'pagina17.html'
+}
+
+function telefone(){
+      window.location.href = 'pagina18.html'
+}
+
+function lampada(){
+      window.location.href = 'pagina19.html'
+}
+
+function carro(){
+      window.location.href = 'pagina20.html'
+}
