@@ -21,8 +21,8 @@ ul{
 
 /* Estilo para o, que e o cabecalho da pagina */
 header { 
-    background-color: #9ACBD0; 
-    color: black; 
+    background-color: #808080; 
+    color: whitesmoke; 
     padding: 10px; 
     text-align: center; 
     position: relative; /* Posiciona o elemento de forma relativa */

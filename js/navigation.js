@@ -65,7 +65,7 @@ function revolucaocientifica() {
 
 }
 
-function revolucaoindustrial() {
+function revolucaoindustrialdois() {
       window.location.href = 'pagina13.html'
 
 }
