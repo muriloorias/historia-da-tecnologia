@@ -78,7 +78,7 @@ function locomotivaferroviaria() {
 function maquinadecostura() {
       window.location.href = 'pagina15.html'
 
-}function maquinadecostura(){
+}function oiniciodainternet(){
       window.location.href = 'pagina16.html'
 }
 
